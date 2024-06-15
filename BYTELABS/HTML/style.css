@@ -1,0 +1,173 @@
+.modoEscuro{
+    background-color: #19212b;
+}
+
+.modoEscuro div.linksuteis div, .modoEscuro div.cursos div{
+    background-color: #151c24; 
+}
+
+.but{
+    color: #3d6f85;
+    background-color: #2f3842;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+main{
+    margin-bottom: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f2dcb5;
+}
+
+.headerBG {
+    background-color: #2f3842;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a {
+    color: #3d6f85;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.header a.logo {
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: fantasy;
+    color: #fac63e;
+}
+
+.header a:hover {
+    background-color: #1b2329;
+    color: #457d95;
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner {
+    background-image: url("assets/banner.jpg");
+    background-size: cover;
+    color: #d2d0cc;
+    padding: 50px;
+    margin: 20px auto 50px;
+    max-width: 1200px;
+    text-align: center;
+
+}
+
+.nome {
+    text-decoration: none;
+    color: #325868;
+}
+
+.cursos, .linksuteis {
+    color: #325868;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.cursosFlex, .linksFlex{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+div.linksuteis div{
+    background-color: #e4d0a9;
+    font-size: 12px;
+    max-width: 355px;
+    text-align: center;
+    align-content: center;
+    h5{
+        text-align: left;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+div.cursos div{
+    background-color: #e4d0a9;
+    font-size: 12px;
+    max-width: 355px;
+    text-align: center;  
+    align-content: center;  
+}
+
+
+footer {
+    padding: 15px;
+    background-color: #2f3842;
+    color: #3d6f85;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-top: 50px;
+    z-index: 100%;
+}
+
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 1200px;
+}
+
+/* Hover */
+.descCV, .descWM, .descSC, .descW3, .descGF {
+    width: 220px;
+    position: absolute;
+    border-radius: 10%;
+    padding: 20px;
+    background: #2f5667;
+    color: #d2d0cc;
+    display: none;
+}
+
+.cursos > div > div > img, .linksuteis > div > div {
+    padding: 15px;
+}
+
+.imgCV:hover + .descCV, .imgWM:hover + .descWM, .imgSC:hover + .descSC, .imgW3:hover + .descW3, .imgGF:hover + .descGF {
+    display: inline-flex;
+ 
+ /*Modo escuro*/
+
+.modoEscuroFooter{
+    background-color: #171d24;
+}
+   transform: translateY(-180px);
+}
+
+

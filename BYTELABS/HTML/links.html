@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteLabs</title>
+    <link rel="stylesheet" href="links.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function modoEscuro(){
+            var body = document.body;
+            body.classList.toggle('modoEscuro');
+        }
+
+        function modoEscuroPe(){
+            var pe = document.getElementById("pe");
+            pe.classList.toggle('modoEscuroPe');
+        }
+
+    </script>
+    <div class="headerBG ">
+        <div class="header">
+            <span>
+                <a href="bytelabs.html" target="_self" class="logo">ByteLabs</a></span>
+            <div class="header-right">
+                <a href="sobrenos.html" class="up" target="_self">sobre nós</a>
+                <a href="cursos.html" class="up" target="_self">cursos</a>
+                <a href="links.html" class="up" target="_self">links úteis</a>
+                <a href="dicas.html" class="up" target="_self">dicas</a>
+                <button class="but" onclick="modoEscuro()">Modo Escuro</button>
+            </div>
+        </div>
+    </div> 
+    <main>
+        <h1>Links Úteis</h1>
+        <h3>Às vezes tudo o que precisamos é apenas de uma dica rápida ou um bom guia para nos auxiliar, então preparamos alguns links que podem ser úteis na sua jornada como programador!</h3>
+        <h2>W3Schools</h2>
+        <h4>
+            A W3Schools é um site muito útil para quando se está aprendendo uma nova linguagem de programação ou outros ramos da tecnologia (como IA ou Cyber Segurança), pois apresenta explicações e exemplos práticos nos quais você pode modificar à vontade para compreender melhor a função de cada comando.
+            <br>
+            <br>
+             Site: <a href="https://www.w3schools.com">https://www.w3schools.com</a>
+        </h4>
+        <img class="img" src="assets/w3schools.png" alt="Um lince, mascote da w3schools, em um traje de astronauta segurando uma bandeira verde com 'W3Schools' escrito em branco">
+        <h2>Guia Foca</h2>
+        <h4>
+             O Guia Foca é um site que disponibiliza o download do Foca GNU/Linux, um guia com explicações básicas sobre computadores e o sistema GNU/Linux até a administração e segurança do sistema, tudo com uma linguagem clara para iniciantes para eventualmente se adaptarem aos termos técnicos.
+            <br>
+            <br>
+            Site: <a href="https://guiafoca.org">https://guiafoca.org</a>
+        </h4>
+        <img class="img" src="assets/guiafoca.png" alt="Uma foca azul vestindo um capelo e segurando um tubo">
+    </main>
+    <footer>
+        <p>E-mail para contato: bytelabs.jkl@gmail.com</p>
+    </footer>
+</body>
+</html>

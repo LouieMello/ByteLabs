@@ -1,0 +1,10 @@
+body{
+    h4{
+        margin-inline-start: 17%;
+        margin-inline-end: 17%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #325868;
+        margin-bottom: 100px;
+        text-align: justify;
+    }
+}

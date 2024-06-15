@@ -1,0 +1,41 @@
+.modoEscuro .comLink{
+    background: #253241;
+}
+.modoEscuro main > div > a{
+    color: rgb(98, 129, 156);
+}
+
+body{
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+color: #294d5c;
+}
+}
+
+h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-inline-start: 17%;
+margin-inline-end: 17%;
+font-size: 14px;
+text-align: justify;
+color: #325868;
+}
+
+
+.comLink{
+    /*Botão*/
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    
+    background: #ead0a9;
+}
+
+.comLink:hover{
+    background: #edb35b;
+
+
+}

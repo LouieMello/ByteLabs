@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title>ByteLabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <script>
+        function modoEscuro(){
+            var body = document.body;
+            body.classList.toggle('modoEscuro');
+        }
+
+        function modoEscuroPe(){
+            var pe = document.getElementById("pe");
+            pe.classList.toggle('modoEscuroPe');
+        }
+
+    </script>
+    <header>
+        <div class="headerBG ">
+            <div class="header">
+                <span>
+                    <a href="bytelabs.html" target="_self" class="logo">ByteLabs</a></span>
+                    <div class="header-right">
+                        <a href="sobrenos.html" class="up" target="_self">sobre nós</a>
+                        <a href="cursos.html" class="up" target="_self">cursos</a>
+                        <a href="links.html" class="up" target="_self">links úteis</a>
+                        <a href="dicas.html" class="up" target="_self">dicas</a>
+                        <button class="but" onclick="modoEscuro()">Modo Escuro</button>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main>
+    <a href="comeco.html" target="_self">
+        <div class="banner">
+            <h1>Por onde começar?</h1>
+            <h3>Em um universo tão vasto quanto o da programação é fácil de se perder com tantas informações, por isso, preparamos um guia especialmente para você.</h3>
+        </div>
+    </a>
+    <div class="cursos">
+            <span>
+                <a href="cursos.html" target="_self" class="nome up"><h3>cursos</h3></a>
+        </span>
+    <div class="cursosFlex">
+        <div>
+            <h3>Curso em vídeo</h3>
+            <img src="assets/cursoemvideo.png" class="imgCV img" alt="Logo do projeto 'Curso em Vídeo'. Um botão de pausa ao lado do nome 'Curso em Vídeo' escrito em branco e fundo azul.">
+            <h5 class="descCV">Criado pelo professor Gustavo Guanabara, o Curso em Vídeo trata-se de um projeto de ensino gratuito de diversas linguagens de programação disponibilizadas tanto na plataforma Youtube quanto no site Curso em Vídeo.</h5>
+        </div>
+        <div>
+            <h3>Curso Web Moderno</h3>
+            <img src="assets/cursodeweb.png" class="imgWM img" alt="Logo do site Cod3r, um dos criadores do curso web. Um hexágono multicolorido ao lado do nome do site 'Cod3r.com.br' escrito em branco, tendo apenas o número 3 escrito em vermelho.">
+            <h5 class="descWM">Criado por Leonardo Moura Leitão e Cod3r Cursos Online, o curso web moderno refere-se a um conjunto de aulas pagas de web ensinando desde a teoria até projetos práticos utilizando html, css, javascript, angular, node, react e etc.</h5>
+        </div>
+        <div>
+            <h3>Curso Capgemini</h3>
+            <img src="assets/programastart.png" class="imgSC img" alt="Logo do curso Start da Capgemini. Está escrito 'Programa Start by Capgemini' em branco, exceto pela logo 'Capgemini' que está em azul.">
+            <h5 class="descSC">Criado pela Capgemini, o programa Start é um curso gratuito em que se escolhe uma trilha nas principais plataformas sendo elas Java, SalesForce, ServiceNow e Cloud. Há ainda uma possibilidade de contratação ao final do treinamento.</h5>
+        </div>
+    </div>
+    </div>
+    
+        <div class="linksuteis">
+            <span>
+                <a href="links.html" class="nome up"><h3>links úteis</h3></a>
+            </span>
+            <div class="linksFlex">
+                <div>
+                    <h3>W3schools</h3>
+                    <img src="assets/w3schools.png" class="imgW3 img" alt="Um lince, mascote da w3schools, em um traje de astronauta segurando uma bandeira verde com 'W3Schools' escrito em branco">
+                    <h5 class="descW3">A W3Schools é um site muito útil para quando se está aprendendo uma nova linguagem de programação ou outros ramos da tecnologia (como IA ou Cyber Segurança), pois apresenta explicações e exemplos práticos nos quais você pode modificar à vontade para compreender melhor a função de cada comando.</h5>
+                </div>
+                <div>
+                    <h3>Guia Foca</h3>
+                    <img src="assets/guiafoca.png" class="imgGF img" alt="Uma foca azul vestindo um capelo e segurando um tubo">
+                    <h5 class="descGF">O Guia Foca é um site que disponibiliza o download do Foca GNU/Linux, um guia com explicações básicas sobre computadores e o sistema GNU/Linux até a administração e segurança do sistema, tudo com uma linguagem clara para iniciantes para eventualmente se adaptarem aos termos técnicos.</h5>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<footer>
+    <p>E-mail para contato: bytelabs.jkl@gmail.com</p>
+</footer>
+</html>
